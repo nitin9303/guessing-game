@@ -1,0 +1,68 @@
+play=input("do you wanna play a little guessing game ??y/n=")
+
+#print(play)
+if play=="y":
+    print("MY_list=[46,16,10,4,17,35,87,33,87,33,78,95]")
+#print("don't blink your eyes, may be i have something for that too")
+    print("choose any no. from above list and press enter")
+    a=input()
+    print("a=[46,14,16,84,10,42,4,52,17]")
+    
+    print("b=[35,63,87,25,33,37,78,29,95]")
+    c=(input("enter the name of list in which your no. lies="))
+    if c=="a":
+        print("a=[46,63,25,37,29,16,76,52,63,47]")
+        print("b=[10,23,59,4,84,94,78,95,94,17]")
+        d=(input("enter the name of list in which your no. lies="))
+        if d=="a":
+            print("a=[64,84,75,4634,66,64,49,76,64]")
+            print("b=[16,76,54,56,64,86,51,34,64,45]")
+            e=(input("enter the name of list in which your no. lies="))
+            if e=="a":
+                print("your choosen no. is 46")
+            else:
+                print("your choosen no. is 16")
+            
+        else:
+             print("a=[84,98,10,56,75,69,85,19,37,72]")
+             print("b=[17,88,4,67,84,64,67,77,54,76]")
+             f=(input("enter the name of list in which your no. lies="))
+             if f=="a":
+                 print("your choosen no. is=10")
+             else:
+                 print("a=[9,54,5,65,75,4,25,45,24,64]")
+                 print("b=[65,58,5,68,59,17,84,80,83,73]")
+                 g=(input("enter the name of list in which your no. lies="))
+                 if g=="a":
+                     print("yoour choosen no. is =4")
+                 else:
+                     print("your choosen no. is =17")
+    else:
+        print("a=[78,68,34,75,71,49,65,51,29,95]")
+        print("b=[35,87,58,68,19,63,33,82,37,43,]")
+        d=(input("enter the name of list in which your no. lies="))
+        if d=="a":
+            print("a=[64,92,36,78,92,64,28,73,19,91]")
+            print("b=[56,65,28,67,37,95,19,43,73,37]")
+            e=(input("enter the name of list in which your no. lies="))
+            if e=="a":
+                print("your choosen no. is 78")
+            else:
+                print("your choosen no. is 95")
+            
+        else:
+             print("a=[34,61,35,57,39,73,67,83,72,27]")
+             print("b=[58,37,79,87,38,33,67,28,41,48]")
+             f=(input("enter the name of list in which your no. lies="))
+             if f=="a":
+                 print("your choosen no. is =35")
+             else:
+                 print("a=[79,39,58,87,86,57,63,76,58,49]")
+                 print("b=[64,73,33,81,28,82,76,18,19,91]")
+                 g=(input("enter the name of list in which your no. lies="))
+                 if g=="a":
+                     print("yoour choosen no. is =87")
+                 else:
+                     print("your choosen no. is =33")
+else:
+    print("have a good day")
